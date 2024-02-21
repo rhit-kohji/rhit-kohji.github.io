@@ -1,0 +1,7 @@
+/* * means target everything in app */
+* { 
+  box-sizing: border-box; /* border is considered when calculating width and height of object */
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
