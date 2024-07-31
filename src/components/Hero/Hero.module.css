@@ -14,7 +14,8 @@
 .content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    width: 55%;
     color: var(--color-text);
     z-index: 1;
 }
@@ -38,9 +39,9 @@
 }
 
 .description {
-    font-size: 30px;
+    font-size:  20px;
     font-family: vars(--font-roboto);
-    margin-bottom: 52px;
+    margin-bottom: 5%;
 }
 
 .contactBtn {
@@ -55,7 +56,7 @@
 }
 
 .heroImg {
-    width: 50%; /* 50% of page */
+    width: 45%; /* 45% of page */
     z-index: 1;
 
     animation-name: floating; /* name of animation*/
