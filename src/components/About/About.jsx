@@ -16,30 +16,30 @@ export const About = () => {
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
                     <div className={styles.aboutItemText}>
-                        <h3>Frontend Developer</h3>
+                        <h3>General</h3>
                         <p>
-                            I'm a frontend developer with experience in
-                            building responsive and optimized sites
+                            full name: James Koh
+                            hometown: Singapore
+                            school: Rose-Hulman Institute of Technology, Class of 2024
                         </p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
                     <div className={styles.aboutItemText}>
-                        <h3>Backend Developer</h3>
+                        <h3>Hobbies & Interests</h3>
                         <p>
-                            I have experience developing fast and optimized
-                            backend systems and APIs
+                            lifting, running, self-help books, "productivity hacks"
                         </p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
                     <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
                     <div className={styles.aboutItemText}>
-                        <h3>UI Designer</h3>
+                        <h3>Work</h3>
+                        {/* TODO: attach resume as pdf */}
                         <p>
-                            I have designed multiple landing pages and have 
-                            created design systems as well
+                            resume: *attach pdf
                         </p>
                     </div>
                 </li>
