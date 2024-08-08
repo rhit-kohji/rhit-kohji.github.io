@@ -1,0 +1,25 @@
+@import  "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    padding: 0 10%;
+}
+
+.modalBtn {
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 830px) {
+    .container {
+        flex-direction: column;
+    }
+}

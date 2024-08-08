@@ -18,7 +18,7 @@ export const Hero = () => {
             </span>
             <a className={styles.contactBtn} href="mailto:kohji@rose-hulman.edu">Contact Me</a>
         </div>
-        <img className={styles.heroImg} src={getImageUrl("hero/heroImage.png")} alt="Hero Image" />
+        <img className={styles.heroImg} src={getImageUrl("hero/heroImg.png")} alt="Hero Image" />
         <div className={styles.topBlur} />
         <div className={styles.bottomBlur} />
     </section>
