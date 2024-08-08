@@ -108,6 +108,13 @@
 @media screen and (max-width: 830px) {
     .container {
         flex-direction: column-reverse;
+        margin-top: 49px;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .title {
+        font-size: 60px;
     }
 
     .content {
