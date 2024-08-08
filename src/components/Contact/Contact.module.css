@@ -8,7 +8,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     width: 100vw;
-    padding: 58px 10%;
+    padding: 40px 10% 40px 10%;
     gap: 10px
 }
 
