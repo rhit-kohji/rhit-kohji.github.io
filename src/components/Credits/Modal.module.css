@@ -58,16 +58,21 @@
 }
 
 @media screen and (max-width: 830px) {
+    /* need to account for original transform/translation */
     .modalContainer {
         flex-direction: column;
-        top: 0;
-        left: 0;
-        transform: none;
+        top: 50%;
+        left: 50%;
         width: 100%;
-        height: 100vh;
+        height: 80vh;
+        text-align: center;
     }
 
-    .creditsImg {
-        width: 100%;
+    .title {
+        flex-direction: column;
+    }
+
+    .content {
+        gap: 5px;
     }
 }
