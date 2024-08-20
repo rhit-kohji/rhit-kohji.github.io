@@ -36,9 +36,8 @@ export const About = () => {
                     <img className={styles.aboutIcon} src={getImageUrl("about/workIcon.png")} alt="Work icon" />
                     <div className={styles.aboutItemText}>
                         <h3>Work</h3>
-                        {/* TODO: attach resume as pdf */}
                         <p>
-                            resume: *attach pdf
+                            resume: <a href={getImageUrl("about/James_Koh_resume.pdf")} alt="James Koh resume">pdf</a>
                         </p>
                     </div>
                 </li>
