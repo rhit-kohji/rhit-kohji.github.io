@@ -8,24 +8,23 @@ export const About = () => {
         <h2 className={styles.title}>About</h2>
         <div className={styles.content}>
             <img 
-                src={getImageUrl("about/aboutImage.png")} 
+                src={getImageUrl("about/aboutImage.jpg")} 
                 alt="Me sitting with a laptop"
                 className={styles.aboutImage}
             />
             <ul className={styles.aboutItems}>
                 <li className={styles.aboutItem}>
-                    <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+                    <img className={styles.aboutIcon} src={getImageUrl("about/generalIcon.png")} alt="General icon" />
                     <div className={styles.aboutItemText}>
                         <h3>General</h3>
                         <p>
-                            full name: James Koh
-                            hometown: Singapore
-                            school: Rose-Hulman Institute of Technology, Class of 2024
+                            James Koh, Singapore<br/>
+                            Rose-Hulman Institute of Technology, Class of 2024<br/>
                         </p>
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
-                    <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
+                    <img className={styles.aboutIcon} src={getImageUrl("about/hobbiesIcon.png")} alt="Hobbies icon" />
                     <div className={styles.aboutItemText}>
                         <h3>Hobbies & Interests</h3>
                         <p>
@@ -34,12 +33,11 @@ export const About = () => {
                     </div>
                 </li>
                 <li className={styles.aboutItem}>
-                    <img src={getImageUrl("about/uiIcon.png")} alt="UI icon" />
+                    <img className={styles.aboutIcon} src={getImageUrl("about/workIcon.png")} alt="Work icon" />
                     <div className={styles.aboutItemText}>
                         <h3>Work</h3>
-                        {/* TODO: attach resume as pdf */}
                         <p>
-                            resume: *attach pdf
+                            resume: <a href={getImageUrl("about/James_Koh_resume.pdf")} alt="James Koh resume">pdf</a>
                         </p>
                     </div>
                 </li>

@@ -15,8 +15,12 @@ export const Modal = ({ isOpen, onClose }) => {
                 <h1>Thank you for contributing to my website!</h1>
             </div>
             <div className={styles.content}>
+                <a href="https://samkohworks.weebly.com/more.html" title="sam koh works">Hero image created by Samuel Koh</a>
                 <a href="https://www.flaticon.com/free-icons/letter-j" title="letter j icons">Letter j icons created by shohanur.rahman13 - Flaticon</a>
                 <a href="https://www.flaticon.com/free-icons/gratitude" title="gratitude icons">Gratitude icons created by Freepik - Flaticon</a>
+                <a href="https://www.flaticon.com/free-icons/knowledge" title="knowledge icons">Knowledge icons created by Vectors Tank - Flaticon</a>
+                <a href="https://www.flaticon.com/free-icons/hobbies" title="hobbies icons">Hobbies icons created by GOWI - Flaticon</a>
+                <a href="https://www.flaticon.com/free-icons/work" title="work icons">Work icons created by Freepik - Flaticon</a>
             </div>
         </div>
     </div>

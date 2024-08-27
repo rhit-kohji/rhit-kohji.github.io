@@ -27,6 +27,9 @@
 
 .aboutImage {
     width: 35%;
+    margin: 20px 37px 20px 0px;
+    border-radius: 20px;
+    box-shadow: 12px 12px 1px rgba(165, 215, 232, 0.42)
 }
 
 .aboutItems {
@@ -34,6 +37,11 @@
     display: flex;
     flex-direction: column;
     gap: 50px;
+}
+
+.aboutIcon {
+    width: 15%;
+    margin-right: 2rem;
 }
 
 .aboutItem {
@@ -63,7 +71,12 @@
 }
 
 .aboutItem p {
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.aboutItem a {
+    color: var(--color-text);
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 830px) {
@@ -77,11 +90,25 @@
         flex-direction: column;
     }
 
+    .aboutImage {
+        width: 70%;
+        margin: 20px 0;
+    }
+
     .aboutItems {
         margin-top: 29px;
+        gap: 20px;
+    }
+
+    .aboutIcon {
+        width: 20%;
+        margin-right: 0px;
+        margin-bottom: 20px;
     }
 
     .aboutItem {
+        flex-direction: column;
+        text-align: center;
         padding-left: 0;
         padding-right: 0;
     }
