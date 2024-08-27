@@ -1,5 +1,29 @@
 [
     {
+      "title": "Java",
+      "imageSrc": ""
+    },
+    {
+      "title": "JavaScript",
+      "imageSrc": ""
+    },
+    {
+      "title": "Python",
+      "imageSrc": ""
+    },
+    {
+      "title": "SQL",
+      "imageSrc": ""
+    },
+    {
+      "title": "Typescript",
+      "imageSrc": ""
+    },
+    {
+      "title": "C#",
+      "imageSrc": ""
+    },
+    {
       "title": "HTML",
       "imageSrc": "skills/html.png"
     },
@@ -8,20 +32,32 @@
       "imageSrc": "skills/css.png"
     },
     {
-      "title": "React",
+      "title": "ReactJS",
       "imageSrc": "skills/react.png"
     },
     {
-      "title": "Node",
+      "title": "NodeJS",
       "imageSrc": "skills/node.png"
     },
     {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
+      "title": "Git",
+      "imageSrc": ""
+    },
+    {
+      "title": "Redis",
+      "imageSrc": ""
     },
     {
       "title": "MongoDB",
       "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "Neo4j",
+      "imageSrc": ""
+    },
+    {
+      "title": "RabbitMQ",
+      "imageSrc": ""
     },
     {
       "title": "Figma",
