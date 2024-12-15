@@ -28,7 +28,7 @@ export const About = () => {
                     <div className={styles.aboutItemText}>
                         <h3>Hobbies & Interests</h3>
                         <p>
-                            lifting, running, self-help books, "productivity hacks"
+                            lifting, running, self-help books, philosophy of life
                         </p>
                     </div>
                 </li>

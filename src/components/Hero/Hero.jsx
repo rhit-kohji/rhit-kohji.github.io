@@ -10,7 +10,7 @@ export const Hero = () => {
             <h1 className={styles.title}>Hi, I'm James</h1>
             <span className={styles.description}>
               <Typewriter
-                words={['hey there!', 'i\'m a CS new grad from Rose-Hulman.', 'currently obsessed with self-improvement.', 'i also like lifting :)', 'thanks for visiting!']}
+                words={['hey there!', 'i\'m a CS grad from Rose-Hulman.', 'currently obsessed with self-improvement.', 'i also like lifting :)', 'thanks for visiting!']}
                 loop={false} // loop infinitely
                 cursor={true}
                 cursorBlinking={true}

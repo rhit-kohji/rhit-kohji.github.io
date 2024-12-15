@@ -11,11 +11,16 @@
 }
 
 .modalBtn {
-    padding: 0px 10px;
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 100px;
+    padding: 10px 20px;
     margin-bottom: 20px;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 2px;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25)
 }
 
 @media screen and (max-width: 830px) {

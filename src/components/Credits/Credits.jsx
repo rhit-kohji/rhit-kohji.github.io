@@ -7,7 +7,7 @@ export const Credits = () => {
 
     return (
         <div className={styles.container}>
-            <button className={styles.modalBtn} onClick={() => {setOpenModal(true)}}>Credits</button>
+            <a className={styles.modalBtn} onClick={() => {setOpenModal(true)}}>Credits</a>
             <Modal isOpen={openModal} onClose={() => setOpenModal(false)} />
         </div>
     )
