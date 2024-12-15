@@ -1,18 +1,30 @@
 [
-    {
-      "role": "SWE Intern",
-      "organisation": "Rose-Hulman Ventures",
-      "startDate": "May",
-      "endDate": "Aug 2023",
-      "experiences": ["full-stack development on finance application", "enhanced functionality by 20%"],
-      "imageSrc": ""
-    },
-    {
-      "role": "SWE Intern",
-      "organisation": "Republic Polytechnic COI-SCM",
-      "startDate": "Jun",
-      "endDate": "Aug 2022",
-      "experiences": ["developed REST API for last-mile delivery planning", "streamlined work pipelines by 20% using automated web tasks"],
-      "imageSrc": ""
-    }
-  ]
+  {
+    "role": "Post-Bac Researcher",
+    "organisation": "Rose-Hulman Institute of Technology",
+    "startDate": "Jul 2024",
+    "endDate": "Present",
+    "imageSrc": "history/rhit.png"
+  },
+  {
+    "role": "Software Engineer",
+    "organisation": "Drophouse Gen AI",
+    "startDate": "Oct",
+    "endDate": "Dec 2024",
+    "imageSrc": "history/drophouse.png"
+  },
+  {
+    "role": "SWE Intern",
+    "organisation": "Rose-Hulman Ventures",
+    "startDate": "May",
+    "endDate": "Aug 2023",
+    "imageSrc": "history/ventures.png"
+  },
+  {
+    "role": "SWE Intern",
+    "organisation": "Republic Polytechnic COI-SCM",
+    "startDate": "Jun",
+    "endDate": "Aug 2022",
+    "imageSrc": "history/RP.png"
+  }
+]

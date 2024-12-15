@@ -21,6 +21,7 @@ export const Modal = ({ isOpen, onClose }) => {
                 <a href="https://www.flaticon.com/free-icons/knowledge" title="knowledge icons">Knowledge icons created by Vectors Tank - Flaticon</a>
                 <a href="https://www.flaticon.com/free-icons/hobbies" title="hobbies icons">Hobbies icons created by GOWI - Flaticon</a>
                 <a href="https://www.flaticon.com/free-icons/work" title="work icons">Work icons created by Freepik - Flaticon</a>
+                <a href="https://icons8.com/icon/laYYF3dV0Iew/microsoft-sql-server">Microsoft SQL Server icon - Icons8</a>
             </div>
         </div>
     </div>

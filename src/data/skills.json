@@ -1,51 +1,27 @@
 [
     {
-      "title": "Java",
-      "imageSrc": ""
-    },
-    {
-      "title": "JavaScript",
-      "imageSrc": ""
-    },
-    {
       "title": "Python",
-      "imageSrc": ""
+      "imageSrc": "skills/python.png"
     },
     {
-      "title": "SQL",
-      "imageSrc": ""
+      "title": "Java",
+      "imageSrc": "skills/java.png"
     },
     {
-      "title": "Typescript",
-      "imageSrc": ""
-    },
-    {
-      "title": "C#",
-      "imageSrc": ""
-    },
-    {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
-    {
-      "title": "ReactJS",
+      "title": "React",
       "imageSrc": "skills/react.png"
     },
     {
-      "title": "NodeJS",
-      "imageSrc": "skills/node.png"
+      "title": "SQL",
+      "imageSrc": "skills/sql.png"
     },
     {
-      "title": "Git",
-      "imageSrc": ""
+      "title": "C#",
+      "imageSrc": "skills/c_sharp.png"
     },
     {
       "title": "Redis",
-      "imageSrc": ""
+      "imageSrc": "skills/redis.png"
     },
     {
       "title": "MongoDB",
@@ -53,11 +29,11 @@
     },
     {
       "title": "Neo4j",
-      "imageSrc": ""
+      "imageSrc": "skills/neo4j.png"
     },
     {
       "title": "RabbitMQ",
-      "imageSrc": ""
+      "imageSrc": "skills/rabbitmq.png"
     },
     {
       "title": "Figma",
