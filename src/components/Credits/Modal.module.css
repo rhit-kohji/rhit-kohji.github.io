@@ -42,6 +42,10 @@
     right: 8px;
 }
 
+.closeBtn:hover {
+    cursor: pointer;
+}
+
 .content {
     display: flex;
     flex-direction: column;

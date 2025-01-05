@@ -5,7 +5,7 @@ import { getImageUrl } from '../../utils';
 
 // instead of using pass in as prop, use destructing from ES6
 // e.g. same as const project = props.project
-export const ProjectCard = ({ project: {title, imageSrc, description, skills, demo, source} }) => {
+export const ProjectCard = ({ project: {title, imageSrc, description, skills, demo} }) => {
   return (
     <div className={styles.container}>
         <img src={getImageUrl(imageSrc)} alt={`Image of ${title}`} className={styles.image}/>
@@ -19,10 +19,12 @@ export const ProjectCard = ({ project: {title, imageSrc, description, skills, de
                 </li>
             )})
         }</ul>
-        <div className={styles.links}>
-            <a href={demo} className={styles.link}>Demo</a>
-            <a href={source} className={styles.link}>Source</a>
-        </div>
+        {
+            demo &&
+            <div className={styles.links}>
+                <a href={demo} className={styles.link}>Demo</a>
+            </div>
+        }
     </div>
   )
 }
