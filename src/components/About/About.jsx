@@ -37,7 +37,7 @@ export const About = () => {
                     <div className={styles.aboutItemText}>
                         <h3>Work</h3>
                         <p>
-                            resume: <a href={getImageUrl("about/James_Koh_resume.pdf")} alt="James Koh resume">pdf</a>
+                            resume: <a target="_blank" href={getImageUrl("about/James_Koh_resume.pdf")} alt="James Koh resume">pdf</a>
                         </p>
                     </div>
                 </li>

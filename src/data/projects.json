@@ -1,26 +1,51 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Gwen's Cookbook",
+      "imageSrc": "projects/cookbook.png",
+      "description": "Cooking made easy for children through iconography",
+      "skills": ["React", "Ruby on Rails", "PostgreSQL"],
+      "demo": "https://gwenscookbook.com/"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Singlish Chatbot",
+      "imageSrc": "projects/chatbot.png",
+      "description": "Prompt engineered OpenAI's chatbot to speak Singlish",
+      "skills": ["Python", "LangChain"]
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Credit Card Prediction",
+      "imageSrc": "projects/credit.png",
+      "description": "Identify key predictors of credit card approval and loyalty",
+      "skills": ["Python", "Scikit-learn", "Pandas"]
+    },
+    {
+      "title": "Book Storage",
+      "imageSrc": "projects/books.png",
+      "description": "NoSQL database system for tracking book information",
+      "skills": ["CouchDB", "Neo4j", "Redis", "RabbitMQ"]
+    },
+    {
+      "title": "World Builder Database",
+      "imageSrc": "projects/world.png",
+      "description": "Helps authors to keep track of their storyline as they write",
+      "skills": ["NodeJS", "SQL"]
+    },
+    {
+      "title": "A* Shortest Path",
+      "imageSrc": "projects/path.png",
+      "description": "Implemented A* for shrines in Legend of Zelda: Breath of the Wild",
+      "skills": ["Java"]
+    },
+    {
+      "title": "Online Scheduler",
+      "imageSrc": "projects/scheduler.png",
+      "description": "Calendar and to-do list integration for task management",
+      "skills": ["NodeJS", "HTML", "CSS"]
+    },
+    {
+      "title": "Jetpac Arcade Game",
+      "imageSrc": "projects/jetpack.png",
+      "description": "The classic Jetpac Arcade game",
+      "skills": ["Java"]
     }
   ]
