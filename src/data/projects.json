@@ -19,6 +19,13 @@
       "skills": ["Python", "Scikit-learn", "Pandas"]
     },
     {
+      "title": "Left 4 Alpaca 2",
+      "imageSrc": "projects/alpaca.png",
+      "description": "A twist on L4D2 with Alpacas",
+      "skills": ["Unity", "C#"],
+      "demo": "https://jameko.itch.io/left-4-alpaca-2"
+    },
+    {
       "title": "Book Storage",
       "imageSrc": "projects/books.png",
       "description": "NoSQL database system for tracking book information",

@@ -5,8 +5,8 @@
     flex-direction: column;
     align-items: center;
     border-radius: 10px;
-    background: linear-gradient(180deg, #576cdc 0%, #132a53 100%);
-    box-shadow: 0 16px 14px 0 #04152d;
+    background: #E2D4B7;
+    box-shadow: 0 16px 14px 0 #000;
     padding: 18px 24px;
     height: 380px;
     width: 345px;
@@ -47,6 +47,7 @@
 }
 
 .title {
+    color: var(--color-project-bg);
     font-size: 25px;
     font-weight: 700;
 }
@@ -78,7 +79,7 @@
     font-size: 20px;
     font-weight: 400;
     border-radius: 100px;
-    background: var(--color-dark);
+    background: var(--color-project-bg);
     padding: 2px 22px;
 }
 
@@ -92,5 +93,5 @@
 }
 
 .link:hover {
-    color: var(--color-primary);
+    color: var(--color-link);
 }

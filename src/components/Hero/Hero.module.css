@@ -25,17 +25,6 @@
     font-weight: 900;
     margin-bottom: 3%;
     font-family: var(--font-roboto);
-    /* 
-        90deg means horizontal
-        70% into the element
-    */
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 1) 70%,
-        rgba(255, 255, 255, 0) 120%
-    );
-    -webkit-text-fill-color: white;
-    -webkit-background-clip: text;
 }
 
 .description {
@@ -46,7 +35,7 @@
 
 .contactBtn {
     text-decoration: none;
-    background-color: var(--color-primary);
+    background-color: var(--color-button);
     color: var(--color-text);
     border-radius: 100px;
     font-size: 30px;
@@ -84,9 +73,9 @@
     min-width: 350px;
     min-height: 350px;
     top: -128px; /* slightly out of page */
-    left: -10vw;
+    left: -5vw;
     border-radius: 764px;
-    background: rgba(25, 55, 109, 0.7);
+    background: rgba(170, 165, 175, 0.1);
     filter: blur(100px);
     z-index: 0;
 }
@@ -100,7 +89,7 @@
     top: 246px; /* slightly out of page */
     right: -25vw;
     border-radius: 764px;
-    background: rgba(25, 55, 109, 0.7);
+    background: rgba(170, 165, 175, 0.1);
     filter: blur(100px);
     z-index: 0;
 }
