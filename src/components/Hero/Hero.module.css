@@ -25,17 +25,6 @@
     font-weight: 900;
     margin-bottom: 3%;
     font-family: var(--font-roboto);
-    /* 
-        90deg means horizontal
-        70% into the element
-    */
-    background: linear-gradient(
-        90deg,
-        rgba(255, 255, 255, 1) 70%,
-        rgba(255, 255, 255, 0) 120%
-    );
-    -webkit-text-fill-color: white;
-    -webkit-background-clip: text;
 }
 
 .description {
