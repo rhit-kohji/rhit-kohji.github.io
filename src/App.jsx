@@ -6,6 +6,7 @@ import { Experience } from './components/Experience/Experience';
 import { Hero } from './components/Hero/Hero';
 import { Navbar } from './components/Navbar/Navbar';
 import { Projects } from './components/Projects/Projects';
+import { ScrollButton } from './components/Navbar/ScrollButton';
 
 // insert new components here
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Projects />
       <Contact />
       <Credits />
+      <ScrollButton />
     </div>
   );
 }
