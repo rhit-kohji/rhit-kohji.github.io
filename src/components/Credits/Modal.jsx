@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Modal.module.css';
 import creditsImg from '../../../assets/icons/credits.png';
+import { FaWindowClose } from 'react-icons/fa';
+
 
 export const Modal = ({ isOpen, onClose }) => {
   return (
@@ -9,7 +11,9 @@ export const Modal = ({ isOpen, onClose }) => {
         <div onClick={(event) => {
             event.stopPropagation() // prevents modal from closing when clicked
         }} className={styles.modalContainer}>
-            <p onClick={onClose} className={styles.closeBtn}>X</p>
+            <p onClick={onClose} className={styles.closeBtn}>
+                <FaWindowClose />
+            </p>
             <div className={styles.title}>
                 <img className={styles.creditsImg} src={creditsImg} alt="Credits Icon" />
                 <h1>Thank you for contributing to my website!</h1>

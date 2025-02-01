@@ -61,6 +61,10 @@
     letter-spacing: 1.5px
 }
 
+.content a:hover {
+    color: var(--color-link);
+}
+
 @media screen and (max-width: 830px) {
     /* need to account for original transform/translation */
     .modalContainer {

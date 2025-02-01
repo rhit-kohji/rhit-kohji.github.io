@@ -13,7 +13,7 @@
       "skills": ["Python", "LangChain"]
     },
     {
-      "title": "Credit Card Prediction",
+      "title": "Card Prediction",
       "imageSrc": "projects/credit.png",
       "description": "Identify key predictors of credit card approval and loyalty",
       "skills": ["Python", "Scikit-learn", "Pandas"]
