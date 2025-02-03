@@ -1,5 +1,12 @@
 [
     {
+      "title": "Web Portfolio",
+      "imageSrc": "projects/portfolio.png",
+      "description": "Everything to know about me",
+      "skills": ["React", "CSS"],
+      "source": "https://github.com/rhit-kohji/rhit-kohji.github.io"
+    },
+    {
       "title": "Gwen's Cookbook",
       "imageSrc": "projects/cookbook.png",
       "description": "Cooking made easy for children through iconography",
@@ -13,7 +20,7 @@
       "skills": ["Python", "LangChain"]
     },
     {
-      "title": "Credit Card Prediction",
+      "title": "Card Prediction",
       "imageSrc": "projects/credit.png",
       "description": "Identify key predictors of credit card approval and loyalty",
       "skills": ["Python", "Scikit-learn", "Pandas"]
