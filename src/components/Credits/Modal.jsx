@@ -35,6 +35,7 @@ export const Modal = ({ isOpen, onClose }) => {
                 <a href="https://www.flaticon.com/free-icons/chat-bot" title="chat bot icons">Chat bot icons created by zero_wing - Flaticon</a>
                 <a href="https://www.flaticon.com/free-icons/cookbook" title="cookbook icons">Cookbook icons created by Freepik - Flaticon</a>
                 <a href="https://www.flaticon.com/free-icons/alpaca" title="alpaca icons">Alpaca icons created by Freepik - Flaticon</a>
+                <a href="https://www.flaticon.com/free-icons/portfolio" title="portfolio icons">Portfolio icons created by Flat Icons - Flaticon</a>
             </div>
         </div>
     </div>
