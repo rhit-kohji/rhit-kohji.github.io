@@ -1,5 +1,12 @@
 [
     {
+      "title": "Rikishi Restaurant",
+      "imageSrc": "projects/restaurant.png",
+      "description": "A static website for Rikishi Japanese Restaurant",
+      "skills": ["JavaScript", "Google Analytics"],
+      "demo": "http://rikishicrestwood.com"
+    },
+    {
       "title": "Web Portfolio",
       "imageSrc": "projects/portfolio.png",
       "description": "Everything to know about me",

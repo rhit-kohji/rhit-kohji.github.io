@@ -39,6 +39,7 @@ export const Modal = ({ isOpen, onClose }) => {
                     <a target="_blank" href="https://www.flaticon.com/free-icons/cookbook" title="cookbook icons">Cookbook icons created by Freepik - Flaticon</a>
                     <a target="_blank" href="https://www.flaticon.com/free-icons/alpaca" title="alpaca icons">Alpaca icons created by Freepik - Flaticon</a>
                     <a target="_blank" href="https://www.flaticon.com/free-icons/portfolio" title="portfolio icons">Portfolio icons created by Flat Icons - Flaticon</a>
+                    <a target="_blank" href="https://www.flaticon.com/free-icons/food-court" title="food court icons">Food court icons created by Iconjam - Flaticon</a>
                 </div>
             </div>
         </div>
